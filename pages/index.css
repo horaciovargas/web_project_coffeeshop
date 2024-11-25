@@ -27,6 +27,14 @@
 
 .header {
   background-image: url("background_header.svg");
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .nav {
@@ -63,6 +71,36 @@
 
 .title_aspan-accent {
   font-size: 30px;
+}
+
+.header__title {
+  max-width: 635px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin-top: 128px;
+}
+
+.header__description {
+  max-width: 515px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 32px;
+}
+
+.header__image {
+  max-width: 636px;
+  display: flex;
+  justify-content: end;
+}
+
+.hader__paragraph {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: last baseline;
+  justify-content: flex-start;
+  box-sizing: border-box;
 }
 
 .info {
