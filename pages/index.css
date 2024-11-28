@@ -100,13 +100,16 @@
 .header__footer {
   margin-top: auto;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
 }
 
 .header__paragraph {
   margin-bottom: 0px;
-  align-self: flex-end;
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
 }
 
 .info {
