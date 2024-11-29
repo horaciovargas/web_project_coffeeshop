@@ -98,15 +98,12 @@
 }
 
 .header__footer {
-  margin-top: auto;
-  width: 100%;
   position: absolute;
   left: 80px;
   bottom: 40px;
 }
 
 .header__paragraph {
-  margin-bottom: 0px;
   position: absolute;
   right: 80px;
   bottom: 40px;
