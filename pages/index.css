@@ -146,6 +146,18 @@
   left: 80px;
 }
 
+.recipes__videos {
+  font-family: "Noto Serif";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  top: 424px;
+  left: 80px;
+}
+
 .info {
   font-size: 1rem;
 }
