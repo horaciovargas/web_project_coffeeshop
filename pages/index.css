@@ -156,9 +156,8 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  position: absolute;
-  top: 100px;
-  left: 80px;
+  padding-top: 100px;
+  margin-left: 80px;
 }
 
 .recipes__subtitle {
@@ -169,9 +168,8 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  position: absolute;
-  top: 184px;
-  left: 80px;
+  margin-top: 24px;
+  margin-left: 80px;
 }
 
 .recipes__videos {
@@ -181,9 +179,25 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  position: absolute;
-  bottom: 215px;
-  left: 80px;
+  position: relative; /* Cambiado de absolute a relative */
+  top: 80px;
+  bottom: auto; /* Elimina el posicionamiento absoluto */
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 0 auto; /* Esto centra el bloque horizontalmente */
+  width: fit-content; /* Opcional: ajusta el ancho al contenido */
+}
+
+.recipes__video-item {
+  position: relativ;
+}
+
+.recipes__iframe {
+}
+
+.recipes__caption {
+  bottom: auto;
 }
 
 .info {
