@@ -1,6 +1,6 @@
 .page {
   min-width: 1100px;
-  max-width: 1431px;
+  max-width: 1440px;
   margin: 0 auto;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
@@ -54,13 +54,13 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  font-family: initer;
+  font-family: inter;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
 }
 
-.title {
+.header__title {
   flex-wrap: wrap;
   margin-top: 183px;
   margin-left: 80px;
@@ -68,7 +68,7 @@
   font-size: 40px;
 }
 
-.title_title {
+.header title_title {
   font-size: 40px;
   font-family: "Noto Serif";
   margin: 0px;
@@ -78,7 +78,7 @@
   color: #2f80ed;
 }
 
-.title_span-accent {
+.header title_span-accent {
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
@@ -96,7 +96,7 @@
   margin-left: 80px;
 }
 
-.header__description {
+.header header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
