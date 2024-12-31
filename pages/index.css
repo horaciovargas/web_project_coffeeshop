@@ -72,25 +72,21 @@
   margin-top: 183px;
   width: 709px;
   font-size: 40px;
-}
-
-.header title_title {
-  font-size: 40px;
   font-family: "Noto Serif";
-  margin: 0px;
   font-style: italic;
   font-weight: normal;
   line-height: 72px;
   color: #2f80ed;
 }
 
-.header title_span-accent {
+.header__span-accent {
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
+  display: block;
 }
 
 .header__description {
@@ -122,7 +118,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  align-items: flex-end;
+  align-items: ;
 }
 
 .header__paragraph {
