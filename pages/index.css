@@ -1,6 +1,6 @@
 .page {
   min-width: 1100px;
-  max-width: 1440px;
+  max-width: 1600px;
   margin: 0 auto;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
@@ -122,12 +122,16 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  align-items: flex-end;
 }
 
 .header__paragraph {
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .recipes {
