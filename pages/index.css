@@ -71,21 +71,21 @@
   flex-wrap: wrap;
   margin-top: 183px;
   width: 709px;
-  font-size: 40px;
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  line-height: 72px;
-  color: #2f80ed;
-}
-
-.header__span-accent {
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
+}
+
+.header__span-accent {
+  font-family: Noto "Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
   display: block;
 }
 
