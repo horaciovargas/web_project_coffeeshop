@@ -54,4 +54,6 @@
 
 .recipes__caption {
   bottom: auto;
+  display: flex;
+  justify-content: space-between;
 }
