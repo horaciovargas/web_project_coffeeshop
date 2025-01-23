@@ -4,18 +4,26 @@
 @import url("../blocks/page.css");
 @import url("../blocks/recipes.css");
 
-body {
+.reservation {
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #d9e7ff;
+  background: #fff url("../images/background_reservation.svg") no-repeat
+    center/cover;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  margin: 0;
-  background-color: #f4f4f9;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px 80px 40px;
 }
 .form-container {
   background-color: #fff;
-  padding: 20px;
+  padding: 32px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
