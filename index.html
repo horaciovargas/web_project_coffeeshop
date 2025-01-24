@@ -113,47 +113,46 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <h2>Reservar una mesa</h2>
+          <div class="title">Reservar una mesa</div>
           <form class="form" action="#" method="post">
-            <label for="name">Nombre:</label>
-            <input
-              class="form_input"
-              type="text"
-              id="name"
-              name="name"
-              required
-            />
+            <fieldset>
+              <label class="label" for="name">Nombre *</label>
+              <input
+                class="form_input"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
 
-            <label for="attendees">Número de asistentes:</label>
-            <input
-              class="form_input"
-              type="number"
-              id="attendees"
-              name="attendees"
-              required
-            />
+              <label class="label" for="attendees">Número de comensales*</label>
+              <input
+                class="form_input"
+                type="number"
+                id="attendees"
+                name="attendees"
+                required
+              />
 
-            <label for="datetime">Fecha y hora:</label>
-            <input
-              class="form_input"
-              type="datetime-local"
-              id="datetime"
-              name="datetime"
-              required
-            />
-            <label for="email">Correo electrónico:</label>
-            <input
-              class="form_input"
-              type="email"
-              id="email"
-              name="email"
-              required
-            />
-            <input
-              class="form_input form_input_color"
-              type="submit"
-              value="Reservar una mesa"
-            />
+              <label class="label" for="datetime">Fecha y hora*</label>
+              <input
+                class="form_input"
+                type="datetime-local"
+                id="datetime"
+                name="datetime"
+                required
+              />
+              <label class="label" for="email">Correo electrónico*</label>
+              <input
+                class="form_input"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </fieldset>
+            <button class="button">Reservar una mesa</button>
+
             <div>
               <input
                 class="form_input form_input_color"

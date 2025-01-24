@@ -17,7 +17,6 @@
   max-height: 800px;
   position: relative;
   box-sizing: border-box;
-  padding: 30px 80px 40px;
 }
 
 .form {
@@ -32,9 +31,21 @@
   width: 300px;
   text-align: center;
 }
-.h2 {
-  margin-bottom: 20px;
-  color: #333;
+
+.title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form_input {
@@ -43,13 +54,23 @@
   color: white;
   border: none;
   box-sizing: border-box;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.form_input_color {
+.button {
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
+  background-color: blue;
   color: white;
   border: none;
   box-sizing: border-box;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
