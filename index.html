@@ -123,6 +123,7 @@
                 id="name"
                 name="name"
                 required
+                placeholder="Nombre"
               />
 
               <label class="label" for="attendees">Número de comensales*</label>
@@ -132,6 +133,9 @@
                 id="attendees"
                 name="attendees"
                 required
+                placeholder="1-8"
+                min="1"
+                max="8"
               />
 
               <label class="label" for="datetime">Fecha y hora*</label>
@@ -141,6 +145,8 @@
                 id="datetime"
                 name="datetime"
                 required
+                min="2025-01-01T08:00"
+                max="2027-12-31T22:00"
               />
               <label class="label" for="email">Correo electrónico*</label>
               <input
@@ -161,7 +167,7 @@
                 name="terms"
                 required
               />
-              <label for="terms">Acepto términos de uso</label>
+              <label class="label" for="terms">Acepto términos de uso</label>
             </div>
           </form>
         </section>
