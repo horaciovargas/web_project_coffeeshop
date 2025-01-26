@@ -17,14 +17,13 @@
 
 .form {
   max-width: 385px;
+  max-height: 1000px;
+  margin-bottom: 120px;
 }
 
 .form-container {
   background-color: #fff;
-  padding: 32px;
-  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 300px;
   text-align: center;
 }
 
@@ -48,7 +47,7 @@
 
 .form_input {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   color: black;
   border: none;
   box-sizing: border-box;
@@ -57,6 +56,9 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 32px;
+  margin-top: 8px;
+  border-radius: 4px;
 }
 
 .form_input_color {
@@ -71,4 +73,32 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.fieldset {
+  padding: 0px;
+}
+
+.form_input_color:hover {
+  background-color: blue;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.form_input:focus {
+  border: 2px solid #007bff;
+  outline: none;
+}
+
+.checkbox {
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
 }
