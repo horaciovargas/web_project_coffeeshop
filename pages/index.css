@@ -35,6 +35,39 @@
   font-size: 1rem;
 }
 
+.content {
+  background-color: #0a2850;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  height: 39px;
+  width: 105px;
+  position: relative;
+  left: -40px;
+}
+
+.nav__links {
+  margin: 8px 0 0;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: inter;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .header {
   background: #fff url("../images/background_header.svg") no-repeat center/cover;
   display: flex;
@@ -167,7 +200,7 @@
   border-radius: 4px;
 }
 
-.form_input_color {
+.form__input_color {
   width: 100%;
   padding: 10px;
   background-color: blue;
@@ -180,20 +213,21 @@
   font-size: 16px;
   line-height: 20px;
   transition: background-color 0.3s ease;
+  margin-bottom: 32px;
 }
 
 .fieldset {
   padding: 0px;
 }
 
-.form_input_color:hover {
+.form__input_color:hover {
   background-color: blue;
   opacity: 0.7;
   cursor: pointer;
   transition: opacity 0.3s ease;
 }
 
-.form_input:focus {
+.form__input:focus {
   border: 2px solid #007bff;
   outline: none;
 }
@@ -208,4 +242,64 @@
 input[type="checkbox"] {
   width: 20px;
   height: 20px;
+}
+
+.recipes {
+  background-image: url("background_recipes.svg");
+  background-color: #0a2750;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.recipes__title {
+  font-family: "Inter";
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  margin-left: 80px;
+}
+
+.recipes__subtitle {
+  font-family: "Noto Serif";
+  color: #ffffff;
+  max-width: 438px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-left: 80px;
+}
+
+.recipes__videos {
+  font-family: "Noto Serif";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  top: 80px;
+  bottom: auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.recipes__video-item {
+  position: relative;
+}
+
+.recipes__caption {
+  bottom: auto;
+  display: flex;
+  justify-content: space-between;
 }
