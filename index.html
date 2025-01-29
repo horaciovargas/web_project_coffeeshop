@@ -10,6 +10,12 @@
     <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./blocks/page.css" />
+    <link rel="stylesheet" href="./blocks/footer.css" />
+    <link rel="stylesheet" href="./blocks/form.css" />
+    <link rel="stylesheet" href="./blocks/header.css" />
+    <link rel="stylesheet" href="./blocks/recipes.css" />
+    <link rel="stylesheet" href="./blocks/reservation.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -175,7 +181,53 @@
           </form>
         </section>
       </main>
-      <footer class="footer" id="footer-id"></footer>
+      <footer class="footer" id="footer-id">
+        <div class="footer__column footer__footer-column">
+          <img
+            src="./images/logo_white.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="footer__logo"
+          />
+        </div>
+        <div class="footer__column footer__column_content_hours">
+          <h3 class="footer__column-heading">Horas</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              Lunes a viernes: 9 a.m. — 8 p.m.
+            </li>
+            <li class="footer__list-item">
+              Sábados y domingos: 10 a.m. — 6 p.m.
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Redes sociales</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__column-link" href="#" target="_blank">
+                <img
+                  src="./images/facebook_white.svg"
+                  class="footer__social-icon"
+                  alt="Facebook Icon"
+                />
+                Facebook
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__column-link" href="#" target="_blank">
+                <img
+                  src="./images/instagram_white.svg"
+                  class="footer__social-icon"
+                  alt="Instagram Icon"
+                />
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">&copy; 2024 Horacio Vargas</p>
+      </footer>
     </div>
   </body>
 </html>
