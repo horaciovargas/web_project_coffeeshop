@@ -177,7 +177,7 @@
   line-height: 20px;
 }
 
-.form_input {
+.form__input {
   width: 100%;
   padding: 15px;
   color: black;
@@ -193,7 +193,7 @@
   border-radius: 4px;
 }
 
-.form__input_color {
+.form__button {
   width: 100%;
   padding: 10px;
   background-color: blue;
