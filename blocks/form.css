@@ -42,7 +42,7 @@
   padding: 0px;
 }
 
-.form__input_color:hover {
+.form__button :hover {
   background-color: blue;
   opacity: 0.7;
   cursor: pointer;
