@@ -115,8 +115,8 @@
         <section class="reservation" id="reservation">
           <div class="reservation__title">Reservar una mesa</div>
           <form class="reservation__form" action="#" method="post">
-            <fieldset class="form">
-              <label class="label" for="name">Nombre *</label>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nombre *</label>
               <input
                 class="form form_input"
                 type="text"
@@ -126,7 +126,9 @@
                 placeholder="Nombre"
               />
 
-              <label class="label" for="attendees">Número de comensales*</label>
+              <label class="form__label" for="attendees"
+                >Número de comensales*</label
+              >
               <input
                 class="form form_input"
                 type="number"
@@ -138,7 +140,7 @@
                 max="8"
               />
 
-              <label class="label" for="datetime">Fecha y hora*</label>
+              <label class="form__label" for="datetime">Fecha y hora*</label>
               <input
                 class="form form_input"
                 type="datetime-local"
@@ -148,7 +150,7 @@
                 min="2025-01-01T08:00"
                 max="2027-12-31T22:00"
               />
-              <label class="label" for="email">Correo electrónico*</label>
+              <label class="form__label" for="email">Correo electrónico*</label>
               <input
                 class="form form_input"
                 type="email"
@@ -167,7 +169,9 @@
                   name="terms"
                   required
                 />
-                <label class="label" for="terms">Acepto términos de uso</label>
+                <label class="form__label" for="terms"
+                  >Acepto términos de uso</label
+                >
               </div>
             </fieldset>
           </form>
