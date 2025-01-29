@@ -148,7 +148,7 @@
   box-sizing: border-box;
 }
 
-.form {
+.reservation__form {
   max-width: 385px;
   max-height: 1000px;
   margin-bottom: 120px;
@@ -160,7 +160,7 @@
   text-align: center;
 }
 
-.title {
+.reservation__title {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
