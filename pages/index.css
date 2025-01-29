@@ -9,12 +9,6 @@
   color: black;
 }
 
-@import url("../blocks/header.css");
-@import url("../blocks/main.css");
-@import url("../blocks/nav.css");
-@import url("../blocks/page.css");
-@import url("../blocks/recipes.css");
-
 .inter {
   font-family: "Inter", serif;
   font-weight: 400;
