@@ -50,19 +50,14 @@
   outline: none;
 }
 
-.checkbox {
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.form__checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
-}
-
-input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-}
-
-input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
 }
