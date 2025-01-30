@@ -17,6 +17,10 @@
   padding-left: 0;
 }
 
+.nav__link:hover {
+  color: #2f80ed;
+}
+
 .nav__link {
   color: #000000;
   text-decoration: none;
